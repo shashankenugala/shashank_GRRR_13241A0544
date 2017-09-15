@@ -22,7 +22,7 @@ public class Main {
 		Student s1=new Student(1,"rakesh adepu",d1,70.55);
 		Student s2=new Student(2,"vineeth dasary",d2,74.05);
 		Student s3=new Student(3,"abhishek hazari",d3,75.90);
-		Student s4=new Student(4,"shashank enugal",d4,80.55);
+		Student s4=new Student(4,"shashank enugala",d4,80.55);
 		Student s5=new Student(5,"praveen medboina",d5,90.55);
 		
 		
@@ -35,6 +35,14 @@ public class Main {
 	
 		Student obj=sg.getStudent(0);
 		System.out.println(obj.getId()+"  "+obj.getFullName()+"  "+obj.getBirthDate()+"  "+obj.getAvgMark());
+		Student obj1=sg.getStudent(1);
+		System.out.println(obj1.getId()+"  "+obj1.getFullName()+"  "+obj1.getBirthDate()+"  "+obj1.getAvgMark());
+		Student obj2=sg.getStudent(2);
+		System.out.println(obj2.getId()+"  "+obj2.getFullName()+"  "+obj2.getBirthDate()+"  "+obj2.getAvgMark());
+		Student obj3=sg.getStudent(3);
+		System.out.println(obj3.getId()+"  "+obj3.getFullName()+"  "+obj3.getBirthDate()+"  "+obj3.getAvgMark());
+		Student obj4=sg.getStudent(4);
+		System.out.println(obj4.getId()+"  "+obj4.getFullName()+"  "+obj4.getBirthDate()+"  "+obj4.getAvgMark());
 		
 		}
 		catch(Exception e){e.printStackTrace();}
